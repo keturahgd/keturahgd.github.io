@@ -1,0 +1,65 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 80em;
+    height: 45em;
+}
+
+h1 {
+    position: absolute;
+    border-radius: 20px;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(73, 94, 158, 0.5);
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+}
+
+.image-container article h2 {
+    position: absolute;
+    border-radius: 20px;
+    top: 60px;
+    left: 10px;
+    background-color: rgba(73, 94, 158, 0.5);
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+}
+
+.image-container article ul {
+    position: absolute;
+    border-radius: 20px;
+    top: 100px;
+    left: 10px;
+    background-color: rgba(73, 94, 158, 0.5);
+    color: #fff; 
+    padding: 10px 30px; 
+    font-size: 20px; 
+}
+
+.image-container article h3 {
+    position: absolute;
+    border-radius: 20px;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff; 
+    padding: 10px 30px; 
+    font-size: 15px; 
+}
+
+.image-container article p {
+    position: absolute;
+    border-radius: 20px;
+    top: 50px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 15px; 
+}
