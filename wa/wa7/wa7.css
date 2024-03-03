@@ -8,8 +8,6 @@ body {
 img {
     max-width: 100%;
     display: block;
-    float: left;
-    margin: 5px;
 }
 
 .logo {
@@ -59,6 +57,8 @@ nav a {
 
 .feature {
     width: 200px;
+    float: left;
+    margin: 5px;
 }
 @media screen and (min-width: 501px){
   .grid {
