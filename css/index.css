@@ -186,14 +186,62 @@ h3 {
     margin-left: auto;
 }
 
-#text1, #text2, #text3 {
-    display: flex; 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto, 1fr);
+    gap: 20px;
+}
+
+.grid-item {
+    display: flex;
     align-items: center;
     font-size: 15px;
 }
 
-#text1 img, #text2 img, #text3 img {
+.grid-item img {
     width: 300px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 20px;
+}
+
+.grid-item .text {
+    flex: 1;
+}
+
+.grid-item h3 {
+    text-align: center;
+    font-family: Times, Times New Roman, serif;
+    color: white;
+    line-height: 1.2;
+    background: #2a6f97;
+    margin-top: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#F&R {
+    margin-top: 30px;
+    text-align: left;
+}
+
+footer p {
+    background-color:#495057;
+    font-family: Times, Times New Roman, serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+    nav {
+        height: 20vh;
+    }
+}
+
+/* Media query for laptop screens (up to 1500px width) */
+@media only screen and (min-width: 401px) and (max-width: 1500px) {
+    nav {
+        height: 8vh; /* Adjust the height for laptop screens */
+    }
 }
